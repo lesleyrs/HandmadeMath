@@ -150,6 +150,7 @@
 # pragma GCC diagnostic ignored "-Wmissing-braces"
 # ifdef __clang__
 #  pragma GCC diagnostic ignored "-Wgnu-anonymous-struct"
+#  pragma GCC diagnostic ignored "-Wnested-anon-types"
 #  pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 # endif
 #endif
