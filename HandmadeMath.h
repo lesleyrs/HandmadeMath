@@ -256,7 +256,7 @@ typedef union HMM_Vec2
 
 #ifdef __cplusplus
     inline float &operator[](int Index) { return Elements[Index]; }
-    inline const float& operator[](int Index) const { return Elements[Index]; }
+    inline const float &operator[](int Index) const { return Elements[Index]; }
 #endif
 } HMM_Vec2;
 
